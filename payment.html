@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<HTML>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script src="JS/jquery-3.5.1.min.js"></script>
+        <script src="JS/multislider.min.js"></script>
+        <title>
+        payment
+        </title>
+        <link type="text/css" href="CSS/payment.css" rel="stylesheet" />
+    </head>
+
+
+
+<div class="container p-0">
+    <div class="card px-4">
+        <p class="h8 py-3">Payment Details</p>
+        <div class="row gx-3">
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">Person Name</p> <input class="form-control mb-3" type="text" placeholder="Name" >
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">Card Number</p> <input class="form-control mb-3" type="text" placeholder="1234 5678 435678">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">Exp</p> <input class="form-control mb-3" type="text" placeholder="MM/YYYY">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex flex-column">
+                    <p class="text mb-1">CVV/CVC</p> <input class="form-control mb-3 pt-2 " type="password" placeholder="***">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="btn btn-primary mb-3" type="submit"  onclick="myFunction()"><span class="ps-3">Pay</span> <span class="fas fa-arrow-right"></span>
+                    <script>
+                        function myFunction() {
+                          alert("Үйлдэл амжилттай ");
+                        }
+                        </script>
+                    
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</HTML>
